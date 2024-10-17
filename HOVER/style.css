@@ -1,0 +1,38 @@
+header {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+main {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(102, 197, 24);
+
+}
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+.testContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.lampada {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
+.verde {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.verde:hover {
+    background-color: red;
+}
+.resize {
+    height: 200px;
+    width: 200px;
+    background-color: navy;
+}
